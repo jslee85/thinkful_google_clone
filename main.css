@@ -1,0 +1,201 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+* { 
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	font-family: Arial, sans-serif;
+	line-height: 1;
+	width: 100%;
+	height: 100%;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+button {
+	font-family: Arial, sans-serif;
+	border: 1px solid #c6c6c6;
+	background: linear-gradient(#f8f8f8,#f1f1f1);
+	padding: 0px 8px;
+	margin: 16px 8px;
+	height: 29px;
+	text-decoration: none;
+	border-radius: 2px;
+	font-weight: bold;
+	color: #444;
+}
+
+button:hover {
+	box-shadow: 0px 1px 0px rgba(0,0,0,.15);
+}
+
+input {
+	outline: none;
+}
+
+#footerbar {
+	position: fixed;
+	height: 40px;
+	bottom: 0;
+	width: 100%;
+	background-color: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+	font-size: 13px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+#container {
+	margin-top: 20px;
+}
+
+.topnavlink {
+	display: inline-block;
+	text-decoration: none;
+	color: #000;
+	font-size: 13px;
+	vertical-align: middle;
+	margin-right: 11px;
+}
+
+.topnavlink img {
+	width: 22px;
+	height: 22px;
+	margin-left: 4px;
+}
+
+.topnavlink:hover, .footerlink:hover {
+	text-decoration: underline;
+}
+
+.topnav {
+	position: relative;
+	width: auto;
+	height: 60px;
+	background: white;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.navigation {
+	float: right;
+}
+
+.signin {
+	color: white;
+	border: 1px solid #4285f4;
+	background: linear-gradient(#4387fd,#4683ea);
+	font-size: 13px;
+	padding: 0 12px;
+	margin-left: 4px;
+	margin-right: 0px;
+}
+
+.logo {
+	width: 300px;
+	margin: 100px auto 0px;
+}
+
+.logo img {
+	max-width: 100%;
+}
+
+.searchfield {
+	margin: 20px auto 0px;
+	position: relative;
+	width: 570px;
+}
+
+.searchfield img {
+	position: absolute;
+	width: 22px;
+	top: 50%;
+	right: 5px;
+	margin-top: -11px;
+}
+
+.searchtext {
+	width: 100%;
+	border: 1px solid #cdcdcd;
+	padding-left: 10px;
+	padding-right: 30px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	font-size: 15px;
+}
+
+.searchtext:hover {
+	border: 1px solid rgba(0,0,0,.3);
+}
+
+.searchtext:focus {
+	border: 1px solid #4285f4;
+}
+
+.searchbuttons {
+	text-align: center;
+}
+
+.footerlink {
+	display: inline-block;
+	text-decoration: none;
+	color: #666;
+	margin-left: 27px;
+	padding: 12px 0px;
+}
+
+.leftfooterbar .footerlink:first-child {
+	margin-left: 0px;
+}
+
+.leftfooterbar {
+	float: left;
+}
+
+.rightfooterbar {
+	float: right;
+}
